@@ -1,7 +1,8 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'human') {
-  powershell "Write-Output 'Hello, $name.'"
   test1=working
+  powershell "Write-Output 'Hello, $test1.'"
+  
 }
 
