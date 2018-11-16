@@ -2,5 +2,6 @@
 
 def call(String name = 'human') {
   powershell "Write-Output 'Hello, $name.'"
+  test1=working
 }
 
