@@ -1,6 +1,8 @@
 #!/usr/bin/env groovy
 
-var1 = 'var1'
+class Globals {
+   static String ouch = "I'm global.."
+}
 
 def call(String name = 'human') {
  
