@@ -1,9 +1,6 @@
 #!/usr/bin/env groovy
 
-class Globals {
-   static String ouch = "I'm global.."
-}
-
+var1="var1"
 def call(String name = 'human') {
  
   powershell "Write-Output 'Hello, $name.'"
