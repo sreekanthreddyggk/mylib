@@ -6,7 +6,7 @@ def getFoo()  {
 }
 
 def call() {
-   this.foo = "working"
+   this.var0 = "working"
    this.var1 = "'not working'"
    this.var2 = "'devops working'"
 
