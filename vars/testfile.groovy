@@ -7,7 +7,7 @@ def getFoo()  {
 
 def call() {
    this.foo = "working"
-   this.var1 = "not working"
+   this.var1 = "'not working'"
   
   
 }
