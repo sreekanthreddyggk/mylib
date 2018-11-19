@@ -1,4 +1,4 @@
 def testcall(String name = 'human'){
-return testcall;
+powershell "Write-Output $name"
   
 }
