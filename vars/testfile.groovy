@@ -1,13 +1,13 @@
 #!/usr/bin/env groovy
 
 def getFoo()  { 
-   return this.foo 
+   return this
    
 }
 
 def call() {
    this.foo = "working"
-   this.var = "not working"
+   this.var1 = "not working"
   
   
 }
