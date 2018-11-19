@@ -1,9 +1,6 @@
 #!/usr/bin/env groovy
 
-def getFoo()  { 
-   return this
-   
-}
+
 
 def call() {
    this.var0 = "working"
