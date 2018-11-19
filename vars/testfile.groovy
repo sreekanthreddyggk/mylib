@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+var3="hie"
 def call() {
    var0 = "working"
    this.var1 = "'not working'"
