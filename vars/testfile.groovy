@@ -2,7 +2,7 @@
 
 def getFoo()  { return this.foo }
 
-def call(String name = 'human') {
+def call() {
    this.foo = "working"
   
   
