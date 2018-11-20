@@ -1,3 +1,3 @@
    
-       powershell "Write-Output 'HIE devops :p'" 
+       powershell "echo some-text  > filename.txt" 
 
