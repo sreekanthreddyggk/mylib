@@ -1,4 +1,4 @@
-library identifier: 'libtest@master'
+library 'libtest'
 import io.wcm.devops.jenkins.pipeline.utils.logging.*
 
 $strString = "Hello World"
