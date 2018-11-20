@@ -2,7 +2,7 @@ def call() {
    powershell '''
      Write-Output 'HIE devops'
    
-    powershell -File sc.ps1
+    powershell -File "C:\'Program Files (x86)'\Jenkins\workspace\multi-share@libs\mytestlibrary\resourcessc.ps1"
     '''
 
 
