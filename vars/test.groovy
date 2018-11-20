@@ -2,7 +2,7 @@ def call() {
    powershell '''
      Write-Output 'HIE devops'
    
-    powershellLibraryScript resource: ".\\sc.ps1"
+    powershell -File sc.ps1
     '''
 
 
