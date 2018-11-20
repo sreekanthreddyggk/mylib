@@ -1,4 +1,4 @@
-library identifier: 'libtext@master'
+library identifier: 'libtest@master'
 import io.wcm.devops.jenkins.pipeline.utils.logging.*
 libtest.sreekanth()
 Write-Output $sreekanth.var0
