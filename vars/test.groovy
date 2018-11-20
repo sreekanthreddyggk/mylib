@@ -1,6 +1,6 @@
 def call() {
    powershell "Write-Output 'HIE devops'"
-   powershell -File '.\\sc.ps1'
+   powershell "-File '.\\sc.ps1'"
 
 
 }
