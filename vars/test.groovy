@@ -1,5 +1,5 @@
 def call() {
-   powershell ''' -command echo Test '''
+   powershell "Write-Output 'HIE devops"
 
 
 }
