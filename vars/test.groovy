@@ -2,7 +2,7 @@ def call() {
    powershell '''
      Write-Output 'HIE devops'
    
-    hello-world.ps1
+    C:\\'Program Files (x86)'\\Jenkins\\workspace\\multi-share@libs\\mytestlibrary\\vars\\hello-world.ps1
     '''
 
 
