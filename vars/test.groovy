@@ -1,5 +1,5 @@
 def call() {
-   "powershell -file .\\sc.ps1"
+   powershell ''' -command echo Test '''
 
 
 }
